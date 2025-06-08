@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dipl"
+version = "0.1.0"
+description = ""
+authors = ["NikitaKharzheev <kharzheev1999@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+streamlit = "^1.45.1"
+langchain = "^0.3.25"
+chromadb = "^1.0.12"
+sentence-transformers = "^4.1.0"
+transformers = "^4.52.4"
+torch = "^2.7.1"
+protobuf = "3.20.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
